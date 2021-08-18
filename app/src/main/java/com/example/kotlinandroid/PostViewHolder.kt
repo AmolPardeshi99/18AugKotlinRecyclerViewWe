@@ -7,7 +7,7 @@ import kotlinx.android.synthetic.main.item_layout.view.*
 class PostViewHolder(private val itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     fun setData(responseDTO: ResponseDTO) {
-        // settext
+        // settext here
         // scoping function   left,run, also, apply
         itemView.apply {
             tvName.text = responseDTO.name

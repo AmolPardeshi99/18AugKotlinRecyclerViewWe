@@ -8,6 +8,8 @@ data class ResponseDTO(
 	@field:SerializedName("name")
 	val name: String? = null,
 
+
+
 	@field:SerializedName("postId")
 	val postId: Int? = null,
 

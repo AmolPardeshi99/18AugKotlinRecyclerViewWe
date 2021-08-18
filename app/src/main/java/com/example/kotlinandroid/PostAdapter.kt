@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 class PostAdapter(private val responseList: List<ResponseDTO>):
     RecyclerView.Adapter<PostViewHolder>() {
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_layout,parent,false)
         return PostViewHolder(view)

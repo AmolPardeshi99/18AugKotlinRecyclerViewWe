@@ -13,11 +13,10 @@ private  var list = listOf<ResponseDTO>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btnFetch.setOnClickListener{
+        btnFetch.setOnClickListener {
             callAPI()
         }
     }
-
     private fun callAPI() {
 
         val apiService = Network.getInstance().create(ApiService::class.java)

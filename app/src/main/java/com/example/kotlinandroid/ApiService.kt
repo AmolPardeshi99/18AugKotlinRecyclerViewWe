@@ -8,6 +8,7 @@ import retrofit2.http.Query
 
 interface ApiService {
 
+
     @GET("comments")
     fun getPosts(@Query("postId") postId: Int): Call<List<ResponseDTO>>
 }
